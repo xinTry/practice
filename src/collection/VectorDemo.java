@@ -32,7 +32,7 @@ System.out.println(i.next().toString());
         Iterator i = v.iterator();
         v.remove(0);
         while (i.hasNext()) {
-            System.out.println(i.next().toString()+"--------------");
+            System.out.println(i.next().toString());
         }
     }
 }
