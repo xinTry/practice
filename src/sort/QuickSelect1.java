@@ -5,6 +5,7 @@ import util.PracticeUtil;
 
 /**
  * 快速排序
+ * 时间复杂度为：O(NlogN)  因为2^k=N  k=logN  每一次最多移动N次，就是NlogN
  */
 public class QuickSelect1 {
 
